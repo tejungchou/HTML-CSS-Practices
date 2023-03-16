@@ -1,0 +1,84 @@
+*{
+/*   border: solid 1px black; */
+  font-family: Times New Roman;
+  position: relative;
+}
+html, body{
+  width: 100%; height: 100%;
+  padding: 0px; margin: 0px;
+}
+body{
+  background-color: #9BC1BC;
+  border-top: solid 20px #ED6A5A;
+  border-bottom: solid 20px #ED6A5A;
+/*   把border size算在整夜內縮裡面 */
+  box-sizing: border-box;
+  
+  overflow: hidden;
+}
+.name_card{
+  width: 350px; height: 200px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 130px;
+  background-color: #E6EBE0;
+  
+  letter-spacing: 1px;
+  font-weight: 600;
+  
+  color: rgb(0,0,0,0.8);
+  
+  overflow: hidden;
+  border: solid 1px rgb(0,0,0,0.15);
+  border-radius: 8px;
+  
+  box-shadow: 0px 0px 15px 0px rgb(0,0,0,0.2);
+}
+.name_card h2{
+  font-size: 25px;
+  font-weight: 600;
+}
+.name_card span{
+  font-size: 18px;
+}
+.name_card h2 span{
+  font-size: 13px;
+}
+.name_card h5{
+  color: #ED6A5A;
+  font-weight: 500;
+}
+.name_card p{
+  font-size: 12px;
+  line-height: 22px;
+}
+.circle{
+  width: 100px; height: 100px;
+  border-radius: 100%;
+  position: absolute;
+}
+.circle1{
+  right: 100px;
+  background-color: #ED6A5A;
+}
+.circle2{
+  width: 60px; height: 60px;
+  right: -30px;
+  top: -30px;
+  border: solid 3px #ED6A5A;
+}
+.page_title{
+/*   border: solid 1px; */
+  text-align: center;
+  color: #F4F1BB;
+  font-weight: 200;
+}
+.mark{
+  font-size: 300px; 
+  position: absolute;
+  bottom: 100px;
+  font-weight: 20;
+  color: rgba(0,0,0,0.3);
+  
+}
