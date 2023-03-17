@@ -1,4 +1,4 @@
-# HTML-CSS-practice
+# HTML-CSS-practices
 ### 名片設計
 > `HTML` `CSS`
 >  
