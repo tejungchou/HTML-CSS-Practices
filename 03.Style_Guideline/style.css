@@ -15,7 +15,7 @@ html, body {
 
 .header {
   height: 200px;
-  background-color: #27232F;
+  background-color: #f4f2ed;
 }
 .header .icon {
   width: 150px;
@@ -33,7 +33,7 @@ html, body {
   margin-top: 10px;
 }
 .content .title_hr {
-  border: solid 3px #ffb336;
+  border: solid 3px #919646;
   width: 100px;
 }
 .content h1 {
@@ -59,6 +59,7 @@ html, body {
 }
 .content .button {
   padding: 5px 25px;
+  border-radius: 4%;
   display: inline-block;
   margin-right: 10px;
   letter-spacing: 2px;
@@ -99,18 +100,35 @@ html, body {
   background-color: #f3f7f7;
 }
 .content .color_chip .color_block_grey {
-  background-color: #333333;
+  background-color: #414141;
 }
 
-.content_grey {
-  background-color: #333333;
+.content_green {
+  background-color: #215140;
   color: #f3f7f7;
 }
-.content_grey .small_english {
-  color: #ffb336;
+.content_green .small_english {
+  color: #919646;
 }
-.content_grey h1, .content_grey h2, .content_grey h3 {
+.content_green h1, .content_green h2, .content_green h3 {
   font-weight: 500;
+}
+
+.content_light_grey {
+  background-color: #f4f2ed;
+  color: #27232F;
+}
+.content_light_grey .small_english {
+  color: #414141;
+}
+.content_light_grey .title_hr {
+  border-color: #215140;
+}
+.content_light_grey .button {
+  border-color: #27232F;
+}
+.content_light_grey .button_blue {
+  color: #f3f7f7;
 }
 
 .content_blue {
@@ -132,21 +150,4 @@ html, body {
 }
 .content_blue .button_yellow {
   font-weight: bold;
-}
-
-.content_white {
-  background-color: #f3f7f7;
-  color: #27232F;
-}
-.content_white .small_english {
-  color: #27232F;
-}
-.content_white .title_hr {
-  border-color: #ffb336;
-}
-.content_white .button {
-  border-color: #27232F;
-}
-.content_white .button_blue {
-  color: #f3f7f7;
 }
