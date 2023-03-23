@@ -23,3 +23,8 @@
 > `HTML` `CSS`
 >  
 >  Demo: [05.Svg_Drawing](https://tejungchou.github.io/HTML-CSS-Practices/05.Svg_Drawing/)
+
+### SVG 繪圖動畫
+> `HTML` `CSS`
+>  
+>  Demo: [06.Svg_Drawing_Animations](https://tejungchou.github.io/HTML-CSS-Practices/06.Svg_Drawing_Animations/)
