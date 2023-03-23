@@ -1,0 +1,44 @@
+svg {
+  width: 240px;
+  border: solid 2px;
+}
+
+#pic1 {
+  stroke: black;
+  stroke-width: 3px;
+}
+#pic1 circle {
+  fill: white;
+}
+#pic2 {
+  stroke: black;
+  stroke-width: 3px;
+}
+#pic2 circle {
+  fill: white;
+}
+#pic2 rect {
+  fill: none;
+}
+
+#pic3 {
+  stroke: black;
+}
+#pic3 polyline {
+  fill: none;
+}
+
+#pic5 {
+  stroke: black;
+  strok-width: 2px;
+  fill: none;
+}
+#pic5 circle {
+  fill: red;
+  stroke: none;
+}
+#pic5 text {
+  stroke: none;
+  fill: black;
+  font-size: 8px;
+}
