@@ -28,3 +28,8 @@
 > `HTML` `CSS`
 >  
 >  Demo: [06.Svg_Drawing_Animations](https://tejungchou.github.io/HTML-CSS-Practices/06.Svg_Drawing_Animations/)
+
+### 天氣盒子
+> `HTML` `CSS`
+>  
+>  Demo: [07.Weather_Box](https://tejungchou.github.io/HTML-CSS-Practices/07.Weather_Box/)

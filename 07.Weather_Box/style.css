@@ -1,0 +1,294 @@
+* {
+  position: relative;
+  font-family: "Hind Vadodara", sans-serif;
+}
+
+label {
+  cursor: pointer;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
+
+.daybox {
+  width: 50%;
+  max-width: 400px;
+  background-color: #f3f3f3;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.daybox:hover .bottom {
+  height: 100px;
+}
+.daybox:hover .dayweather {
+  opacity: 1;
+  top: 10px;
+}
+
+.rain {
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  left: 45px;
+  bottom: 15px;
+  animation: raindrop 1s linear infinite;
+  background-color: #f3f3f3;
+}
+
+.rain2 {
+  left: 70px;
+  bottom: 20px;
+  animation-delay: -0.4s;
+}
+
+.rain3 {
+  left: 30px;
+  bottom: 20px;
+  animation-delay: -0.7s;
+}
+
+@keyframes raindrop {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+}
+.top {
+  height: 330px;
+  position: relative;
+  background: linear-gradient(20deg, #19283D, #1D678F);
+  background-size: 100% 300%;
+  animation: daylight 20s;
+  animation-fill-mode: both;
+  border-radius: 5px 5px 0px 0px;
+}
+@keyframes daylight {
+  0% {
+    background-position: 100% 30%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+.top .temsvg {
+  width: 100%;
+}
+.top .temsvg polyline {
+  stroke: #f3f3f3;
+  stroke-width: 1px;
+  fill: none;
+  opacity: 0.2;
+}
+.top .temsvg text {
+  transform: translateX(-5px) translateY(20px);
+  font-size: 12px;
+  fill: #f3f3f3;
+  opacity: 0;
+}
+.top .temsvg circle {
+  fill: #f3f3f3;
+  opacity: 0.2;
+}
+.top .moon {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  box-shadow: 15px -15px;
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  animation: moonmove 20s infinite;
+}
+@keyframes moonmove {
+  0% {
+    box-shadow: 15px -15px #FFD633;
+    transform: translateX(-15px) translateY(15px);
+  }
+  100% {
+    box-shadow: -30px 30px #FFD633;
+    transform: translateX(30px) translateY(-30px);
+  }
+}
+
+.cloud {
+  width: 100px;
+  height: 36px;
+  position: absolute;
+  left: 200px;
+  bottom: 50px;
+  border-radius: 20px;
+  animation: clouddrift 5s linear infinite;
+  background-color: #f3f3f3;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+.cloud:before, .cloud:after {
+  content: "";
+  background-color: #f3f3f3;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: absolute;
+}
+.cloud:before {
+  left: 16px;
+  top: -28px;
+}
+.cloud:after {
+  left: 35px;
+  top: -20px;
+}
+@keyframes clouddrift {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.bottom {
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 0px 0px 5px 5px;
+  overflow: hidden;
+  transition-duration: 1.8s;
+}
+.bottom .dayweather {
+  width: calc(100% / 7 - 5px);
+  display: inline-block;
+  text-align: center;
+  opacity: 1;
+  top: 20px;
+  transition: 0.5s;
+}
+.bottom .dayweather:hover .sun {
+  animation: sunspin 10s linear infinite;
+}
+.bottom .dayweather h3 {
+  font-size: 8px;
+  color: rgba(51, 51, 51, 0.6);
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.bottom .dayweather svg {
+  width: 100%;
+  height: 40px;
+  max-width: 40px;
+}
+.bottom .dayweather svg .sun {
+  fill: #FFD633;
+  stroke: rgba(255, 214, 51, 0.5);
+  stroke-width: 30px;
+  stroke-dasharray: 5px;
+}
+.bottom .dayweather svg .rain {
+  stroke: #4DACFF;
+}
+.bottom .dayweather svg .cloud {
+  fill: #ccc;
+}
+.bottom .dayweather:nth-child(1) {
+  transition-delay: 0.2s;
+}
+.bottom .dayweather:nth-child(2) {
+  transition-delay: 0.4s;
+}
+.bottom .dayweather:nth-child(3) {
+  transition-delay: 0.6s;
+}
+.bottom .dayweather:nth-child(4) {
+  transition-delay: 0.8s;
+}
+.bottom .dayweather:nth-child(5) {
+  transition-delay: 1s;
+}
+.bottom .dayweather:nth-child(6) {
+  transition-delay: 1.2s;
+}
+.bottom .dayweather:nth-child(7) {
+  transition-delay: 1.4s;
+}
+.bottom .dayweather:nth-child(7):hover svg {
+  animation: lightning 0.9s linear;
+}
+@keyframes sunspin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes lightning {
+  0% {
+    background-color: #ffc414;
+  }
+  25% {
+    background-color: #f3f3f3;
+  }
+  50% {
+    background-color: #ffc414;
+  }
+  100% {
+    background-color: #f3f3f3;
+  }
+}
+
+.text_area {
+  display: inline-block;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  color: #color_white;
+}
+.text_area .temperature {
+  font-size: 75px;
+  line-height: 65px;
+}
+.text_area .infos {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.moon, .cloud {
+  transition: 0.5s;
+}
+
+.temsvg circle {
+  transition: 0.5s 0s;
+}
+.temsvg polyline {
+  transition: 0.5s 0.3s;
+}
+.temsvg text {
+  transition: 0.5s 0.6s;
+}
+
+#switch_night {
+  display: none;
+}
+
+#switch_night:checked + .top .moon, #switch_night:checked + .top .cloud {
+  opacity: 0.2;
+}
+#switch_night:checked + .top .temsvg circle, #switch_night:checked + .top .temsvg polyline, #switch_night:checked + .top .temsvg text {
+  opacity: 1;
+}
