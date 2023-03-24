@@ -15,7 +15,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #333;
+  background-color: #95A3A4;
 }
 
 .daybox {
@@ -68,8 +68,8 @@ html, body {
 .top {
   height: 330px;
   position: relative;
-  background: linear-gradient(20deg, #19283D, #1D678F);
-  background-size: 100% 300%;
+  background: linear-gradient(20deg, #19283D, #036cc7);
+  background-size: 100% 200%;
   animation: daylight 20s;
   animation-fill-mode: both;
   border-radius: 5px 5px 0px 0px;
@@ -265,7 +265,7 @@ html, body {
 }
 .text_area .infos {
   font-size: 13px;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .moon, .cloud {
