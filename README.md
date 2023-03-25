@@ -33,3 +33,8 @@
 > `HTML` `CSS`
 >  
 >  Demo: [07.Weather_Box](https://tejungchou.github.io/HTML-CSS-Practices/07.Weather_Box/)
+
+### 音波動畫
+> `HTML` `CSS`
+>  
+>  Demo: [08.Music_Wave](https://tejungchou.github.io/HTML-CSS-Practices/08.Music_Wave/)
