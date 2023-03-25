@@ -39,7 +39,7 @@
 >  
 >  Demo: [08.Music_Wave](https://tejungchou.github.io/HTML-CSS-Practices/08.Music_Wave/)
 
-### 音波動畫
-> `HTML` `CSS`
+### 計數器
+> `HTML` `CSS` `JavaScript`
 >  
 >  Demo: [09.Counting_Box](https://tejungchou.github.io/HTML-CSS-Practices/09.Counting_Box/)
