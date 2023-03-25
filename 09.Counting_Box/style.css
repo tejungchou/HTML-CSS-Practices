@@ -1,0 +1,63 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+.minus, .num, .add {
+  display: inline-block;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.num {
+  width: 70px;
+  text-align: center;
+}
+
+.minus, .add {
+  width: 30px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.minus:hover, .add:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.count {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border: solid 3px white;
+  color: white;
+}
+
+.text {
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  border-bottom: 7px solid;
+  border-color: yellow;
+  transition-duration: 0.5s;
+}
+
+.fill_stock {
+  font-size: 13px;
+  text-align: center;
+  height: 0px;
+  overflow: hidden;
+}
+
+.fill_stock_open {
+  height: 30px;
+  padding-top: 10px;
+  color: #FF6505;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
