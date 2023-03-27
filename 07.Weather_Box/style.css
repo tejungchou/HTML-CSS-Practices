@@ -178,6 +178,7 @@ html, body {
   opacity: 1;
   top: 20px;
   transition: 0.5s;
+  user-select: none;
 }
 .bottom .dayweather:hover .sun {
   animation: sunspin 10s linear infinite;
