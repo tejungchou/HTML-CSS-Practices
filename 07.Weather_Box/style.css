@@ -24,7 +24,6 @@ html, body {
   background-color: #f3f3f3;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
-  cursor: pointer;
 }
 .daybox:hover .bottom {
   height: 100px;
