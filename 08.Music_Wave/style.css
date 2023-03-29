@@ -22,7 +22,7 @@ body {
 
 .back .line {
   display: block;
-  positioin: relative;
+  position: relative;
   background-color: #f1f1f1;
   width: 10px;
   height: 100%;
