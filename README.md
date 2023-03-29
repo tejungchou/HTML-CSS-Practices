@@ -53,3 +53,8 @@
 > `HTML` `CSS` `JavaScript`
 >  
 >  Demo: [11.Shopping_List](https://tejungchou.github.io/HTML-CSS-Practices/11.Shopping_List/)
+
+### 購物清單 + AJAX
+> `HTML` `CSS` `JavaScript`
+>  
+>  Demo: [12.Shopping_List_Ajax](https://tejungchou.github.io/HTML-CSS-Practices/12.Shopping_List_Ajax/)
