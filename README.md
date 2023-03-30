@@ -58,3 +58,8 @@
 > `HTML` `CSS` `JavaScript`
 >  
 >  Demo: [12.Shopping_List_Ajax](https://tejungchou.github.io/HTML-CSS-Practices/12.Shopping_List_Ajax/)
+
+### Responsive Web Design(Percentage+Max/Mid-width)
+> `HTML` `CSS`
+>  
+>  Demo: [13.RWD_Percentage_Max_Min_Width](https://tejungchou.github.io/HTML-CSS-Practices/13.RWD_Percentage_Max_Min_Width/)
