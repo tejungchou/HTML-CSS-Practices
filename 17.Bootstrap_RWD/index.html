@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap &amp; RWD</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="jumbotron">
+  <div class="container">
+    <h1>Bootstrap 格線系統</h1>
+    <p>Bootstrap的格線系統，把寬度切成了12份，你可以透過列(row)裝行(col)，來指定在每一個寬度的螢幕上，這個區塊應該佔多少大小。</p>
+    <div class="row">
+      <div class="col-xs-12 visible-lg">
+        <h3>LG(大螢幕>1200px)</h3>
+      </div>
+      <div class="col-xs-12 visible-md"> 
+        <h3>MD(大螢幕>992px)</h3>
+      </div>
+      <div class="col-xs-12 visible-sm"> 
+        <h3>SM(大螢幕>768px)</h3>
+      </div>
+      <div class="col-xs-12 visible-xs">
+        <h3>XS(大螢幕<768px)</h3>
+      </div>
+    </div><a class="btn btn-primary" href="https://getbootstrap.com/docs/4.0/layout/grid/" target="_blank">英文說明手冊</a>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="block col-xs-1">1</div>
+    <div class="block col-xs-1">2</div>
+    <div class="block col-xs-1">3</div>
+    <div class="block col-xs-1">4</div>
+    <div class="block col-xs-1">5</div>
+    <div class="block col-xs-1">6</div>
+    <div class="block col-xs-1">7</div>
+    <div class="block col-xs-1">8</div>
+    <div class="block col-xs-1">9</div>
+    <div class="block col-xs-1">10</div>
+    <div class="block col-xs-1">11</div>
+    <div class="block col-xs-1">12</div>
+  </div>
+  <div class="row">
+    <div class="border col-sm-8 col-sm-offset-3">
+      <h3>偏移的區塊(.col-sm-8.col-sm-offset-4)</h3>
+      <p>使用 col-尺寸-offset-欄位數來指定左側偏移的大小</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="border col-lg-6 col-md-7 col-sm-4">
+      <h3>大區塊(.col-sm-4.col-md-7.col-lg-6)</h3>
+      <p>在bootstrap中總共有分四個螢幕尺寸，要指定欄位寬度的時候，使用(xs/sm/md/lg)四個尺寸關鍵字</p>
+      <div class="well">
+        <p>尺寸是向上覆蓋的(比如如果指定md中螢幕佔7欄，沒有指定lg大螢幕佔多少，會沿用中螢幕的分配)</p>
+      </div>
+    </div>
+    <div class="border col-lg-6 col-md-5 col-sm-8">
+      <h3>大區塊(.col-sm-8.col-md-5.col-lg-6)</h3>
+      <p>在bootstrap中總共有分四個螢幕尺寸，要指定欄位寬度的時候，使用(xs/sm/md/lg)四個尺寸關鍵字</p>
+      <ul class="list-group">
+        <li class="list-group-item">測試清單項目</li>
+        <li class="list-group-item">測試清單項目</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="border col-sm-4 hidden-md">
+      <h3>標題文字(.col-sm-4)</h3>
+    </div>
+    <div class="border col-sm-4 visible-lg">
+      <h3>標題文字(.col-sm-4)</h3>
+      <p>只有在大螢幕會顯示</p>
+    </div>
+    <div class="border col-sm-4">
+      <h3>標題文字(.col-sm-4)</h3>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
