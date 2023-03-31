@@ -1,0 +1,132 @@
+* {
+  vertical-align: middle;
+  position: relative;
+  font-family: serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #E9EBEE;
+}
+
+.container {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topbar {
+  background-color: #3B5998;
+  height: 50px;
+}
+.topbar .icon {
+  height: 30px;
+  margin: 10px;
+}
+.topbar input {
+  height: 30px;
+  margin: 10px;
+  margin-left: 0px;
+  width: 300px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: none;
+}
+
+.cover {
+  height: 330px;
+  background-image: url("https://github.com/tejungchou/HTML-CSS-Practices/blob/main/15.Facebook_Pages/000060150010.jpg?raw=true");
+  background-position: 0 bottom;
+  background-size: cover;
+}
+
+.midbar {
+  height: 50px;
+  background-color: #fff;
+}
+.midbar .personimg {
+  width: 130px;
+  height: 150px;
+  background-image: url("https://github.com/tejungchou/HTML-CSS-Practices/blob/main/02.Resume/head_pic.jpeg?raw=true");
+  background-size: cover;
+  background-position: center;
+  border: solid 4px white;
+  position: absolute;
+  top: -130px;
+  left: 20px;
+}
+.midbar .personimg .names {
+  position: absolute;
+  right: -120px;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.midbar .personimg .names h2, .midbar .personimg .names h5 {
+  margin: 0;
+}
+.midbar .personimg .names h2 {
+  font-size: 32px;
+}
+.midbar .personimg .names h5 {
+  font-size: 16px;
+}
+
+.bottombar {
+  background-color: #fff;
+  width: 35%;
+  min-width: 350px;
+  padding: 20px;
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 10px;
+}
+.bottombar i {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .topbar {
+    height: 60px;
+  }
+  .topbar .icon {
+    height: 40px;
+  }
+  .topbar input {
+    height: 30px;
+    width: calc( 100% - 40px - 60px );
+    background-color: #2d4373;
+    color: #fff;
+  }
+
+  .midbar {
+    height: 120px;
+  }
+  .midbar .personimg {
+    width: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .midbar .personimg .names {
+    right: initial;
+    left: 50%;
+    top: 110%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    color: #555;
+  }
+
+  .bottombar {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .bottombar p {
+    border-top: solid 1px #bbbbbb;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+  }
+}
