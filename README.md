@@ -88,3 +88,8 @@
 > `HTML` `CSS`
 >  
 >  Demo: [18.Bootstrap_Sea](https://tejungchou.github.io/HTML-CSS-Practices/18.Bootstrap_Sea/)
+
+### Bootstrap 實作 2 (History of Printing)
+> `HTML` `CSS` `JavaScript`
+>  
+>  Demo: [19.History_of_Printing](https://tejungchou.github.io/HTML-CSS-Practices/19.History_of_Printing/)
