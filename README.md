@@ -69,7 +69,7 @@
 >  
 >  Demo: [14.RWD_Media_Query](https://tejungchou.github.io/HTML-CSS-Practices/14.RWD_Media_Query/)
 
-### Responsive Web Design 實作(Facebook Pages)
+### Responsive Web Design 實作 (Facebook Pages)
 > `HTML` `CSS`
 >  
 >  Demo: [15.Facebook_Pages](https://tejungchou.github.io/HTML-CSS-Practices/15.Facebook_Pages/)
@@ -83,3 +83,8 @@
 > `HTML` `CSS`
 >  
 >  Demo: [17.Bootstrap_RWD](https://tejungchou.github.io/HTML-CSS-Practices/17.Bootstrap_RWD/)
+
+### Bootstrap 實作 1 (Sea)
+> `HTML` `CSS`
+>  
+>  Demo: [18.Bootstrap_Sea](https://tejungchou.github.io/HTML-CSS-Practices/18.Bootstrap_Sea/)
